@@ -38,7 +38,7 @@ int main(void)
     print_array(array2, n2);
 
     int array3[] = {19};
-    size_t n = sizeof(array3) / sizeof(array3[0]);
+    size_t n3 = sizeof(array3) / sizeof(array3[0]);
 
     print_array(array3, n3);
     printf("\n");

@@ -37,6 +37,15 @@ int main(void)
     printf("\n");
     print_array(array2, n2);
 
+    int array3[] = {19};
+    size_t n = sizeof(array3) / sizeof(array3[0]);
+
+    print_array(array3, n3);
+    printf("\n");
+    bubble_sort(array3, n3);
+    printf("\n");
+    print_array(array3, n3);
+
     return (0);
 }
 
